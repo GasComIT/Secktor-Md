@@ -23,7 +23,7 @@ cmd({
     async(Void, citel,text) => {
         let zx = text.length;
         if (zx < 30) {
-            let {data} = await fetchk(`http://api.brainshop.ai/get?bid=167991&key=aozpOoNOy3dfLgmB&uid=[${citel.sender.split("@")[0]}]&msg=[${text}]`);
+            let {data} = await axios.get(`http://api.brainshop.ai/get?bid=167991&key=aozpOoNOy3dfLgmB&uid=[${citel.sender.split("@")[0]}]&msg=[${text}]`);
             return citel.reply(data.cnt);  
         }
         if (!text) return citel.reply(`Hey there! ${citel.pushName}. How are you doing these days?`);
@@ -61,7 +61,7 @@ cmd({
 *🍁 Repo:* https://github.com/SamPandey001/Secktor-Md
 *Group:* https://chat.whatsapp.com/Bl2F9UTVU4CBfZU6eVnrbCl
 *Deploy Your Own:*-
-SecktorBot.herokuapp.com/deploy `
+ SecktorBot.me/deploy `
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
