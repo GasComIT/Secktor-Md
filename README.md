@@ -33,7 +33,7 @@
 
 5. ***[Deploy on Koyeb](https://secktorbot.onrender.com/koyeb)***
 
-6.  ***[Deploy on Railway](https://secktorbot.onrender.com/railway)***
+6.  ***[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/-jcqTK?referralCode=XSEYYB)***
 7. ***[Deploy on MOGENIOUS](https://github.com/SamPandey001/Secktor-Md/wiki/Deploy-on-MOGENIOUS)***
   
 8. ***Deploy in [Linux](https://github.com/SamPandey001/Secktor-Deploy#deploy-in-any-shell-including-termux)***
