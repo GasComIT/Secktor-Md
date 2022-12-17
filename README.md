@@ -1,7 +1,6 @@
-  
-<p align="center">  
+  <p align="center">  
   <a href="https://citel.vercel.app/">
-    <img alt="secktor docs" height="300" src="https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png">
+    <img alt="secktor docs" height="300" src="https://secktorbot.onrender.com/main.jpg">
     <h1 align="center">Secktor MD Whatsapp bot</h1>
   </a>
 </p>
@@ -23,32 +22,30 @@
 <p align="center"><img src="https://profile-counter.glitch.me/{SamPandey001}/count.svg" alt="SamPandey001 :: Visitor's Count" /></p>
 
   <p align="center"> Introducing Secktor,Secktor is designed to bring a whole new level of excitement to your boring WhatsApp use. </p
-
+ 
 - Install [External Plugins](https://github.com/SamPandey001/Secktor-Plugins)
-## Deployment Method for Heroku
+## Deployment Methods
 ---
-1. Click [SCAN](https://secktorbot.me/session) and scan QR code. `Whatapp>Three dots>Linked Devices`
-2. You will get a session id in whatsapp, copy id only.
-3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
-4.  Grab a Mongodb uri from [Mongodb](https://signup.mongodb.com) for more instructions check yt video [Youtube Video](https://youtu.be/4u0uv3IiAAc).
-5. Click [FORK](https://github.com/SamPandey001/Secktor-MD/fork)
-6.  <a href="https://secktorbot.me/deploy">
-    <img alt="DEPLOY on Heroku" height="40" src="https://www.herokucdn.com/deploy/button.svg">
-  </a>
+1. ***Get [SESSION-ID](https://secktorbot.onrender.com/) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+2.  ***Get a Mongodb uri from [Mongodb](https://github.com/SamPandey001/Secktor-Md/wiki/Mongodb-URI) | [Tutorial](https://www.youtube.com/watch?v=WWrpBCBlyuo).***
+3.  ***Click [FORK](https://github.com/SamPandey001/Secktor-MD/fork)***
+4.  ***Deploy on [Heroku](https://secktorbot.onrender.com/heroku)***
+
+5. ***[Deploy on Koyeb](https://secktorbot.onrender.com/koyeb)***
+
+6.  ***[Deploy on Railway](https://secktorbot.onrender.com/railway)***
+7. ***[Deploy on MOGENIOUS](https://github.com/SamPandey001/Secktor-Md/wiki/Deploy-on-MOGENIOUS)***
   
-7.  [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/hbw5a1?referralCode=okazYt)
-  
-   ## 8. Deploy in any shell including Termux [check it out.](https://github.com/SamPandey001/Secktor-Deploy#deploy-in-any-shell-including-termux) [Video Tutorial](https://youtu.be/ZgYFPWJdgms)
+8. ***Deploy in [Linux](https://github.com/SamPandey001/Secktor-Deploy#deploy-in-any-shell-including-termux)***
 
 9. if you get error in doing above try, [Deploy on VPS or PC.](https://github.com/SamPandey001/Secktor-Md/blob/main/deploy-on-vps.md)
 ---
-10. More info about [Secktor](https://secktorbot.me/).
-11. Deploy tutorial [Youtube Video](https://www.youtube.com/watch?v=7YWI50BDO5o).
-12. Docs [Secktor-Docs](https://citel.vercel.app/).
+10. More info about [Secktor](https://secktorbot.onrender.com/).
+11. Deploy tutorial [Youtube Video](https://secktorbot.onrender.com/youtube).
 
-13. SUPPORT GROUP: <a href="https://chat.whatsapp.com/Bl2F9UTVU4CBfZU6eVnrbCl"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
+12. SUPPORT GROUP: <a href="https://secktorbot.tech/support"><img alt="WhatsApp" src="https://camo.githubusercontent.com/2157131829ac512183ee8f8b6c6f803688a4cc66a2e686602844e80478401a7c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6f696e2047726f75702d3235443336363f7374796c653d666f722d7468652d6261646765266c6f676f3d7768617473617070266c6f676f436f6c6f723d7768697465"/></a>
 
-14. Star ⭐ repo if you like Secktor.
+- Star ⭐ repo if you like Secktor.
 ### Thanks To
 
 - [Yusuf Usta](https://github.com/yusufusta) for Ideas
