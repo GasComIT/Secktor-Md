@@ -85,19 +85,19 @@ Secktor.cmd({
                 let generatebutton = [{
                     buttonId: `${prefix}owner`,
                     buttonText: {
-                        displayText: 'Owner'
+                        displayText: '👑Owner'
                     },
                     type: 1
                 },{
                     buttonId: `${prefix}ping`,
                     buttonText: {
-                        displayText: 'SPEED'
+                        displayText: '🚀Speed'
                     },
                     type: 1
-                }, {
+                },{
                     buttonId: `${prefix}list`,
                     buttonText: {
-                        displayText: 'List Menu'
+                        displayText: '📜List'
                     },
                     type: 1
                 }]
@@ -149,7 +149,7 @@ Secktor.cmd({
     //---------------------------------------------------------------------------
 Secktor.cmd({
         pattern: "owner",
-        desc: "To check ping",
+        desc: "To check bot owner",
         category: "general",
         react: "💜",
         filename: __filename

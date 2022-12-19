@@ -29,7 +29,7 @@ cmd({
         if (!text) return citel.reply(`Hey there! ${citel.pushName}. How are you doing these days?`);
         const { Configuration, OpenAIApi } = require("openai");
         const configuration = new Configuration({
-            apiKey: Config.OPENAI_API_KEY || "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",
+            apiKey: Config.OPENAI_API_KEY || "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",
         });
         const openai = new OpenAIApi(configuration);
         const completion = await openai.createCompletion({
@@ -54,12 +54,12 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/SamPandey001/Secktor-Md')
+        let { data } = await axios.get('https://api.github.com/repos/GasComIT/Secktor-Md')
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* secktorbot.tech/repo
-*Group:* secktorbot.tech/support
+*🍁 Repo:* GitHub.com/GasComIT/Secktor-Md
+*Group:* https://chat.whatsapp.com/LggW0xFd9095WPyknl791f
 *Deploy Your Own:*-
  SecktorBot.tech/youtube`
         let buttonMessaged = {
@@ -117,7 +117,7 @@ cmd({
 *🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
-*🕸Version:* 1.0.0
+*🕸Version:* 0.0.5
 *👤Owner:*  ${Config.ownername}
 *Powered by ${tlang().title}*
 `;
