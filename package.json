@@ -1,7 +1,7 @@
 {
                "name": "Secktor-Md",
-               "version": "0.0.6",
-               "description": "Multi device whatsapp bot by SamPandey001.",
+               "version": "0.0.5",
+               "description": "Multi device whatsapp bot by GasComIT.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
@@ -9,7 +9,7 @@
                 "start": "pm2 start lib/client.js --deep-monitoring --attach --name secktor",
                 "stop": "pm2 stop secktor"
                 },
-               "author": "SamPandey001",
+               "author": "GasComIT",
               "dependencies": {
                        "@adiwajshing/baileys": "^4.4.0", 
                        "@adiwajshing/keyed-db": "^0.2.4",
@@ -66,10 +66,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/SamPandey001/Secktor-Md.git"
+                 "url": "git+https://github.com/GasComIT/Secktor-Md.git"
                   },
                  "bugs": {
-                 "url": "https://github.com/SamPandey001/Secktor-Md/issues"
+                 "url": "https://github.com/GasComIT/Secktor-Md/issues"
                   },
-                 "homepage": "https://github.com/SamPandey001/Secktor-Md#readme"
+                 "homepage": "https://github.com/GasComIT/Secktor-Md#readme"
                   }
