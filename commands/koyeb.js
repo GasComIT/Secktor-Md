@@ -4,7 +4,7 @@
  You may not use this file except in compliance with the License.
  It is supplied in the hope that it may be useful.
  * @project_name : Secktor-Md
- * @author : @samapndey001 <https://github.com/SamPandey001>
+ * @author : @gascomit <https://github.com/GasComIT>
  * @description : Secktor,A Multi-functional whatsapp bot.
  * @version 0.0.6
  **/

@@ -206,7 +206,7 @@ cmd({
         pattern: "iswa",
         category: "search",
         desc: "Searches in given rage about given number.",
-        use: '9112345678xx',
+        use: '254712345xxx',
         filename: __filename,
     },
     async(Void, citel, text) => {

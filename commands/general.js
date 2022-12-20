@@ -96,7 +96,7 @@ cmd({
         const dbut = [{
                 buttonId: `${prefix}help`,
                 buttonText: {
-                    displayText: "Menu",
+                    displayText: "📜 Menu",
                 },
                 type: 1,
             },
@@ -104,7 +104,7 @@ cmd({
             {
                 buttonId: `${prefix}rank`,
                 buttonText: {
-                    displayText: "Rank",
+                    displayText: "🍃 Rank",
                 },
                 type: 1,
             },
@@ -135,8 +135,8 @@ cmd({
                     body: `Bot-Status`,
                     thumbnail: log0,
                     mediaType: 2,
-                    mediaUrl: ``,
-                    sourceUrl: ``,
+                    mediaUrl: `GitHub.com/GasComIT/Secktor-Md`,
+                    sourceUrl: `GitHub.com/GasComIT/Secktor-Md`,
                 },
             },
         };

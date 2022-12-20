@@ -212,14 +212,14 @@ async(Void, citel, text,{ isCreator }) => {
              let buttons = [{
                      buttonId: `${prefix}act nsfw`,
                      buttonText: {
-                         displayText: "Turn On",
+                         displayText: "Turn On 🔞",
                      },
                      type: 1,
                  },
                  {
                      buttonId: `${prefix}deact nsfw`,
                      buttonText: {
-                         displayText: "Turn Off",
+                         displayText: "Turn Off 🔞",
                      },
                      type: 1,
                  },
@@ -230,7 +230,7 @@ async(Void, citel, text,{ isCreator }) => {
      //---------------------------------------------------------------------------
  cmd({
              pattern: "npm",
-             desc: "download mp4 from url.",
+             desc: "Get info of npm package.",
              category: "search",
              use: '<package name>',
              filename: __filename,
@@ -511,14 +511,14 @@ let checkgroup = await sck.findOne({ id: citel.chat })
 let buttons = [{
           buttonId: `${prefix}bot on`,
           buttonText: {
-              displayText: "Turn On",
+              displayText: "Turn On 🤖",
           },
           type: 1,
       },
       {
           buttonId: `${prefix}bot off`,
           buttonText: {
-              displayText: "Turn Off",
+              displayText: "Turn Off 🤖",
           },
           type: 1,
       },
@@ -564,7 +564,7 @@ let buttons = [{
      //---------------------------------------------------------------------------
  cmd({ on: "body" }, async(Void, citel) => {
      if (Config.autoreaction === 'true' && citel.text.startsWith(prefix)) {
-         const emojis = ['❤', '💕', '😻', '🧡', '💛', '💚', '💙', '💜', '🖤', '❣', '💞', '💓', '💗', '💖', '💘', '💝', '💟', '♥', '💌', '🙂', '🤗', '😌', '😉', '🤗', '😊', '🎊', '🎉', '🎁', '🎈', '👋']
+         const emojis = ['❤', '💕', '😻', '🧡', '💛', '💚', '💙', '💜', '🖤', '😎', '💞', '💓', '💗', '💖', '💘', '💝', '💟', '♥', '💌', '🙂', '🤗', '😌', '😉', '🤗', '😊', '🎊', '🎉', '🎁', '🎈', '👋']
          const emokis = emojis[Math.floor(Math.random() * (emojis.length))]
          Void.sendMessage(citel.chat, {
              react: {

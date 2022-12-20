@@ -48,9 +48,9 @@ Secktor.cmd({
                 })
                 const time = moment(moment())
                     .format('HH:mm:ss')
-                moment.tz.setDefault('Asia/KOLKATA')
+                moment.tz.setDefault('Africa/Nairobi')
                     .locale('id')
-                const date = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                const date = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
                 let str = `╭────《 ` + fancytext(Config.ownername.split(' ')[0], 58) + ` 》─────⊷\n`
                 str +=
@@ -85,19 +85,25 @@ Secktor.cmd({
                 let generatebutton = [{
                     buttonId: `${prefix}owner`,
                     buttonText: {
-                        displayText: '👑Owner'
+                        displayText: '👑 Owner'
                     },
                     type: 1
                 },{
                     buttonId: `${prefix}ping`,
                     buttonText: {
-                        displayText: '🚀Speed'
+                        displayText: '🚀 Speed'
+                    },
+                    type: 1
+                },{
+                    buttonId: `${prefix}repo`,
+                    buttonText: {
+                        displayText: '🔬 Script'
                     },
                     type: 1
                 },{
                     buttonId: `${prefix}list`,
                     buttonText: {
-                        displayText: '📜List'
+                        displayText: '📜 List'
                     },
                     type: 1
                 }]

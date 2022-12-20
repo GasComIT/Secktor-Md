@@ -115,21 +115,21 @@ cmd({
             let buttons = [{
                     buttonId: `${prefix}ytmp4 ${anu.url}`,
                     buttonText: {
-                        displayText: "► Video",
+                        displayText: "📺 Video",
                     },
                     type: 1,
                 },
                 {
                     buttonId: `${prefix}ytmp3 ${anu.url}`,
                     buttonText: {
-                        displayText: "♫ Audio",
+                        displayText: "🎙 Audio",
                     },
                     type: 1,
                 },
                   {
                     buttonId: `${prefix}ytdoc ${anu.url}`,
                     buttonText: {
-                        displayText: "♫ Document",
+                        displayText: "📚 Document",
                     },
                     type: 1,
                 },
@@ -141,7 +141,7 @@ cmd({
                 caption: `
 ╭───────────────◆
 │⿻ ${tlang().title} 
-│  *Youtube Player* ✨
+│⿻ *Youtube Player* ✨
 │⿻ *Title:* ${anu.title}
 │⿻ *Duration:* ${anu.timestamp}
 │⿻ *Viewers:* ${anu.views}
