@@ -16,7 +16,7 @@ let text = `0ཻུ۪۪ꦽꦼ̷⸙‹•════════════♡�
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙`
 
 
-const { prefix,getBuffer } = require('../../lib')
+const { prefix,getBuffer } = require('../lib')
 module.exports = {
    name: 'intro',
    category: 'general',
