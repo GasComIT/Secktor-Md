@@ -26,7 +26,7 @@
 - Install [External Plugins](https://github.com/GasComIT/Secktor-Plugins)
 ## Deployment Methods
 ---
-1. ***Get [SESSION-ID](https://secktorbot.onrender.com/) by scanning QR code. `Whatapp>Three dots>Linked Devices`***
+1. ||| FIXING SESSION SOON |||
 2.  ***Get a Mongodb uri from [Mongodb](https://github.com/GasComIT/Secktor-Md/wiki/Mongodb-URI) | [Tutorial](https://www.youtube.com/watch?v=WWrpBCBlyuo).***
 3.  ***Click [FORK](https://github.com/GasComIT/Secktor-Md/fork)***
 4.  ***Deploy on [Heroku](https://secktorbot.onrender.com/heroku)***
