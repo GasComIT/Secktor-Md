@@ -1,6 +1,6 @@
 {
   "__JSON__": true,
-  "AUTHOR": "CitelVoid",
+  "AUTHOR": "GasComIT",
   "Theme": "Friday",
   "LANGCODE": "en",
   "STRINGS": {
@@ -23,18 +23,18 @@
            "greet" : "Sir",
          "dotbody" : "Oh, hello sir..",
           "promote": "Admin Role Privileged",
-          "pmallow": "*Hii,This is Fridayr*\n*An assistant of My Master.*\nMy Master is busy right now.\nKindly Leave your Message.\n\n_I will inform him about your message asap......_",
+          "pmallow": "*Hii,This is Friday*\n*An assistant of My Master.*\nMy Master is busy right now.\nKindly Leave your Message.\n\n_I will inform him about your message asap......_",
           "pmblock": "❌ Blocked*\n\n You have been blocked for spamming.\n\n _𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐅𝐫𝐢𝐝𝐚𝐲_",
           "pmwarn": "✋Hii* \nPlease don't spam else I'll block you for spamming. _You have ${checkPermit.times} warning(s)._\n\n * 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐅𝐫𝐢𝐝𝐚𝐲*",
           "permited": "Hii ${tname}*\n\nNow You are permitted by my owner to pm now.\n\n *𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐅𝐫𝐢𝐝𝐚𝐲*", 
           "revoked" : "*Hii ${tname}*\n\nYour pm permit permission has been prevoked now.\n\n _ 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐅𝐫𝐢𝐝𝐚𝐲_",
           "demote": "Uhh,Admin Role Taken back",
           "antlink": "Link Detected.\n*Good Bye Bro*",
-          "session": "\n*This is your session.sam.json,keep it safe and store it properly*\n_Now Upload This json file in Your Forked Repo_\n Connect your repo to Heroku and *Deploy Branch* and Bot will run for Always\n\n*𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 𝒁𝒆𝒓𝒐 𝑻𝒘𝒐*",
+          "session": "\n*This is your session.sam.json,keep it safe and store it properly*\n_Now Upload This json file in Your Forked Repo_\n Connect your repo to Heroku and *Deploy Branch* and Bot will run for Always\n\n*Powered by GasComIT*",
           "mention": " Please atleast mention any user bro.",
           "title": "𝐅𝐫𝐢𝐝𝐚𝐲",
           "footer": "𝐅𝐫𝐢𝐝𝐚𝐲",
-          "by": "Made by: *CitelVoid*",
+          "by": "Made by: *GasComIT*",
           "chat_desc": "Options Avilable* : 1. mute\n2. unmute\n3. archive\n4. unarchive\n5. read\n6. unread\n7. delete",
           "success": "Done ✓",
           "dot": "Hii Sir, Did you mean *-help?*",
@@ -53,4 +53,5 @@
       }
   }
 }
+
 
