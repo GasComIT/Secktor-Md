@@ -1,6 +1,6 @@
 {
-               "name": "Secktor-Md",
-               "version": "0.0.5",
+               "name": "Ultron",
+               "version": "1.0.1",
                "description": "Multi device whatsapp bot by GasComIT.",
                "main": "lib/client.js",
                "type": "commonjs",

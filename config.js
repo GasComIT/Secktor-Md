@@ -6,16 +6,16 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "Enter-MongoURI-HERE"
 global.port= process.env.PORT || 5000
-global.email = 'gas@secktor.live'
+global.email = 'it.gascom@gmail.com'
 global.github = 'https://github.com/GasComIT/Secktor-Md'
 global.location = 'Nakuru NVS'
-global.gurl = 'https://instagram.com/gascomit' // add your username
+global.gurl = 'https://instagram.com/arctix_bots' // add your username
 global.sudo = process.env.SUDO || '254718241545'
 global.devs = '254718241545';
-global.website = 'https://github.com/GasComIT/Secktor-Md'
+global.website = 'https://github.com/GasComIT/Ultron'
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png'
 module.exports = {
-  botname: process.env.BOT_NAME || 'Secktor',
+  botname: process.env.BOT_NAME || 'Ultron',
   ownername:process.env.OWNER_NAME || 'GasComIT',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 

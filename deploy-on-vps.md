@@ -1,4 +1,4 @@
-## Deploy on VPS or PC.
+### Deploy on VPS or PC.
 - You need to Install git,ffmpeg,curl,nodejs,yarn with pm2 
    1. Install git ffmpeg curl 
       ```
@@ -25,7 +25,7 @@
 
    5. Clone Repo and install required packages
       ```
-      git clone https://github.com/SamPandey001/Secktor-Md
+      git clone https://github.com/GasComIT/Secktor-Md
       cd Secktor-Md
       yarn install --network-concurrency 1
       ```
@@ -38,26 +38,26 @@
       copy paste lines below.
 
       ```
-      OWNER_NUMBER="911234567890"
+      OWNER_NUMBER="254718241545"
       MONGODB_URI="mongodb+srv://*************"
       SESSION_ID = "secktorbot.herokuapp.com/session"
       THUMB_IMAGE = "https://raw.githubusercontent.com/SecktorBot/Brandimages/main/logos/SocialLogo%201.png"
       port = 5000
-      email = "sam@secktor.live"
-      global_url = "instagram.com"
-      OWNER_NAME = "SamPandey001"
+      email = "gas@secktor.live"
+      global_url = "instagram.com/GasComIT"
+      OWNER_NAME = "GasComIT"
       AUTO_REACTION = false
       FAKE_COUNTRY_CODE = 92
       READ_MESSAGE = false
       PREFIX = .
       WARN_COUNT = 3
       DISABLE_PM = false
-      ANTI_BAD_WORD = "fuck"
+      ANTI_BAD_WORD = "dick"
       LEVEL_UP_MESSAGE= true
       WELCOME_MESSAGE =  "*Hi,* @user \n*Welcome in* @gname \n*Member count* : @count th"
       THEME= SECKTOR
       WORKTYPE = public
-      PACK_INFO = "Sam;Pandey"
+      PACK_INFO = "skt;GasComIT"
       ANTILINK_VALUES = "chat.whatsapp.com"
       
       ```
