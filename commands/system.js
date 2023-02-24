@@ -138,7 +138,7 @@ cmd({
         async(Void, citel, text) => {
             const translatte = require("translatte");
             if (!citel.quoted) return citel.reply("*Please reply to any message.*");
-            if (!citel.quoted) return citel.reply(`Please mention or give tex.`);
+            if (!citel.quoted) return citel.reply(`Please mention or give text.`);
             let textt = citel.quoted.text;
             whole = await translatte(textt, {
                 from: text[1] || "auto",
@@ -256,7 +256,7 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by SamPandey001.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*A bot developed by GasComIT.*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
 _This is  ${tlang().title}._
